@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+        <title>Aplicacion de POO</title>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Aplicacion de POO</h1>
+            <form id="forma">
+                <div class="mb-3">
+                    <label for="marcaPC">Marca de PC</label>
+                    <input type="text" class="form-control" placeholder="Ingrese la marca de PC" id="marcaPC">
+                    <button class="btn btn-primary mb-3" onclick="valores()">Agregar</button>
+                </div>
+                <div class="mb-3">
+                    <label for="modeloPantalla">Modelo de pantalla</label>
+                    <input type="text" class="form-control" placeholder="Ingrese el modelo de pantalla" id="modeloPantalla">
+                    <button class="btn btn-primary mb-3" onclick="">Agregar</button>
+                </div>
+                <div class="mb-3">
+                    <label for="tamanoPantalla">Tamano de pantalla</label>
+                    <input type="text" class="form-control" placeholder="Ingrese el tamano de pantalla" id="tamanoPantalla">
+                    <button class="btn btn-primary mb-3" onclick="">Agregar</button>
+                </div>
+                <div class="mb-3">
+                    <label for="conexionRaton">Tipo de conexion del raton</label>
+                    <input type="text" class="form-control" placeholder="Ingrese tipo de conexion del raton" id="conexionRaton">
+                    <button class="btn btn-primary mb-3" onclick="">Agregar</button>
+                </div>
+                <div class="mb-3">
+                    <label for="marcaRaton">Marca del raton</label>
+                    <input type="text" class="form-control" placeholder="Ingrese la marca del raton" id="marcaRaton">
+                    <button class="btn btn-primary mb-3" onclick="">Agregar</button>
+                </div>
+                <div class="mb-3">
+                    <label for="conexionTeclado">Tipo de conexion del teclado</label>
+                    <input type="text" class="form-control" placeholder="Ingrese tipo de conexion del teclado" id="conexionTeclado">
+                    <button class="btn btn-primary mb-3" onclick="">Agregar</button>
+                </div>
+                <div class="mb-3">
+                    <label for="marcaTeclado">Marca del teclado</label>
+                    <input type="text" class="form-control" placeholder="Ingrese la marca del teclado" id="marcaTeclado">
+                    <button class="btn btn-primary mb-3" onclick="">Agregar</button>
+                </div>
+            </form>
+            <button class="btn btn-primary mb-3" onclick="valores()">Ver pedido</button>
+            <div id="resultado"></div>
+        </div>
+        <button class="btn btn-primary mb-3" onclick="limpiar()">Limpiar</button>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+        <script src="js/claseOrden.js"></script>
+        <!--script src="js/claseComputadora.js"></script>
+        <script src="js/claseMonitor.js"></script>
+        <script src="js/claseRaton.js"></script>
+        <script src="js/claseTeclado.js"></script-->
+    </body>
+</html>
